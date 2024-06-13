@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <link rel="stylesheet" href="./CSS/Look.css">
+  <link rel="stylesheet" media="only screen and (max-width:500px)" href="./CSS/style.mobile.css">
+  <script src="https://kit.fontawesome.com/6e19b948d9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Ledor|Accueil</title>
+  <script src="https://kit.fontawesome.com/645d85fd0f.js" crossorigin="anonymous"></script>
+
+  <style>
+    /* Ajoutez ces styles pour l'animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 10;
+        transform: translateY(70px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .vp-content {
+      animation: fadeIn 1s ease-out;
+    }
+
+    span.immobilier {
+      color: #ffff00; /* Jaune */
+    }
+    span.bio-text {
+      color: #ffff00; /* Jaune */
+    }
+    .boite2 {
+      text-align: center; /* Centrer le texte horizontalement */
+      margin-top: 0; /* Réduire la marge en haut */
+      padding-top: 0px; /* Ajouter un espace au-dessus du texte */
+    }
+    .boite2 h1 {
+      margin-bottom: 0; /* Supprimer la marge en bas */
+    }
+    /* Style for the crown icon */
+    .fa-crown {
+      color: yellow; /* Set icon color to yellow */
+    }
+    /* Style for the Ledor logo */
+    h1 a {
+      font-family: "este"; /* Font Indie Flower for "Ledor" */
+      color: #f1f1f1; /* Set Ledor text color to yellow */
+    }
+    /* Style pour la section de biographie */
+.auto-bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:5px 20px;
+  padding-left: 10px;
+  
+  
+ 
+}
+
+/* Style pour l'image de la biographie */
+.bio-image img {
+  width: 600px;
+ 
+}
+
+/* Style pour le texte de la biographie */
+.bio-text {
+  max-width: 600px;
+  padding-inline :10px;
+  background-color: #555;
+  height: 352px;
+  padding-top: 50px;
+ 
+}
+
+.bio-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.bio-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color:#f1f1f1
+}
+.bar{
+  padding: 1px;
+  margin: 10px;
+  margin-inline:100px;
+  color: black;
+}
+  </style>
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <h1>
+        <i class="fa-solid fa-crown"></i> <a href="./index.html">Ledor</a>
+      </h1>
+      <ul>
+        <li><a class="active" href="#">Accueil</a></li>
+        <li><a href="./Js/Nos_offres.html">Nos offres</a></li>
+        <li><a href="./Js/Notre équipe.html">Notre équipe</a></li>
+        <li><a href="./Js/contact.html">Contact</a></li>
+      </ul>
+      <div style="border-collapse: collapse"></div>
+    </nav>
+  </section>
+
+  <section class="vp">
+    <div class="vp-content">
+      <h1>
+        Un <span class="immobilier">immobilier</span> d'exception
+        pour des clients d'exception
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim id eos vel? Inventore, 
+        enim eum nihil autem ea vitae blanditiis veritatis quasi aspernatur reiciendis quae vo
+      </p>
+    </div>
+  </section>
+  <section class="properties">
+    <div class="container">
+      <p>Nos dernières acquisitions</p>
+      <div class="properties-grid">
+        <div class="property-item">
+          <img src="./Image/mike1  (2).jpg" alt="Propriété immobilière de luxe">
+          <h3>Appartement Paris spacieux</h3>
+          <p>21 chambres 450 m2</p>
+          <span class="prix">3 900 000€ - $4 200 000</span>
+        </div>
+        <div class="property-item">
+          <img src="./Image/image2.jpg" alt="Propriété immobilière de luxe">
+          <h3>Appartement Paris spacieux</h3>
+          <p>18 chambres 300 m2</p>
+         
+          <div class="bar"></div>
+          <span class="prix">2 500 000€ - $2 800 000</span>
+        </div>
+        <div class="property-item">
+          <img src="./Image/mike1  (4).jpg" alt="Propriété immobilière de luxe">
+          <h3>Maison familiale</h3>
+          <p>6 chambres 250 m2</p>
+          <span class="prix">1 800 000€ - $2 000 000</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="auto-bio">
+    <div class="bio-image"> 
+      <img src="./Image/image  6 (1).jpg" alt="Maison familiale"> 
+    </div>
+    <div class="bio-text">
+      <h2>
+        Une équipe de <span class="bio-text">professionnels</span> avec plus de 10 ans d'expérience
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit molestias perspiciatis obcaecati ullam ab possimus, veniam voluptates mollitia, quis magnam iure quasi. Perspiciatis temporibus laudantium nam?
+      </p>
+    </div>
+  </section>
+  <section id="clients">
+    <p>
+        Ecoutez ce que nos clients pensent de nous
+    </p>
+    <div class="rows">
+        <hr id ="hr">
+        <div class="client-content">
+            <p><i class="fa-solid fa-quote-left"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum impedit magni sequi sed ut tempora veniam provident aut eligendi hic nostrum totam porro accu<i class="fa-solid fa-quote-right"></i></p>
+            <div class="ident1">
+                <img src="./Image/image 10.jpg" alt=" ">
+                <h5>Mike</h5> 
+            </div>
+        </div>
+        <div class="client-content">
+        <img src="./Image/image 10.jpg" alt=" ">
+        <h5>Mike</h5>
+        <p><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestiae fugiat magni temporibus eos quasi eaque natus quos nostrum blanditiis accusamus voluptatibus non, 
+          a omnis at corporis? Asperiores, modi nesciunt.lorem<i class="fa-solid fa-quote-right"></i></p>
+        </div> 
+     <div class="ident1"></div>
+        <div class="client-content">
+      <p><i class="fa-solid fa-quote-left"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, distinctio? Ipsam sed laboriosam veritatis nesciunt eligendi quia, perspiciatis sint ad ex nostrum numquam quaerat<i class="fa-solid fa-quote-right"></i></p>
+            <div class="ident1">
+                <img src="./Image/image 10.jpg" alt=" ">
+                <h5>Mike</h5> 
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>
+      Copyright<i class="fa-regular fa-copyright"></i> EsternyMikendy@ <strong><em>IA Insight.</em></strong> All rights reserved
+    </p>
+  </footer>
+</body> 
+</html>
